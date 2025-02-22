@@ -1,0 +1,21 @@
+2025-02-03 12:53:47,957 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-02-03 12:55:09,341 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-03 12:55:09,999 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.foodordering:demo:0.0.1-SNAPSHOT @ /home/mima2/Desktop/Food-Ordering-web/Back-End/demo/demo/pom.xml.
+2025-02-03 12:55:10,516 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2025-02-03 12:55:10,517 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2025-02-03 12:55:10,517 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2025-02-03 12:55:10,518 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2025-02-03 12:55:10,518 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2025-02-03 12:55:11,833 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 1.00 sec 
+2025-02-03 12:55:12,609 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-02-03 12:55:12,635 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-02-03 12:55:12,643 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/mima2/Desktop/Food-Ordering-web/Back-End/demo/demo/src/test/resources
+2025-02-03 12:57:46,866 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.15; built: 2024-11-05T19:44:57.623Z; git: 8281ae9740d4b4225e8166cc476bad237c70213a; jvm 21.0.5+11-LTS
+2025-02-03 12:57:46,897 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@72db6448{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@1d1e6c5f{STARTED}}
+2025-02-03 12:57:46,898 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-02-03 12:57:46,906 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7cba8e2b{HTTP/1.1, (http/1.1)}{127.0.0.1:38671}
+2025-02-03 12:57:46,916 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@4e2158d3{STARTING}[12.0.15,sto=0] @25187ms
+2025-02-03 12:57:47,653 [qtp799700519-91] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2025-02-03 12:57:48,003 [qtp799700519-91] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2025-02-03 12:58:11,080 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4e2158d3{STOPPING}[12.0.15,sto=0]
+2025-02-03 12:58:11,081 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7cba8e2b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

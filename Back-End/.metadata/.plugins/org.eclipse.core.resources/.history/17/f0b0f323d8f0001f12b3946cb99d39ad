@@ -1,0 +1,48 @@
+package com.foodordering.model;
+
+import jakarta.persistence.Embeddable;
+import lombok.Data;
+
+@Data
+@Embeddable
+public class ContactInformation {
+    private String mobile;
+    private String email;
+    private String instagram;
+    private String twitter;
+
+
+//    // Getters and Setters
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String phoneNumber) {
+        this.mobile = phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+	public String getInstagram() {
+		return instagram;
+	}
+
+	public void setInstagram(String instagram) {
+		this.instagram = instagram;
+	}
+
+	public String getTwitter() {
+		return twitter;
+	}
+
+	public void setTwitter(String twitter) {
+		this.twitter = twitter;
+	}
+    
+}
