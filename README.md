@@ -21,7 +21,8 @@
   - HTML, CSS, JavaScript
   - React
 
-- **Backend**:  
+- **Backend**:
+  - Java 
   - Spring Boot  
   - postman
 
